@@ -1,15 +1,32 @@
 {
+  "name": "@kudoai/chatgpt.js-greasemonkey-starter",
+  "private": true,
+  "description": "A starting point for developing your own Greasemonkey userscript using chatgpt.js",
   "author": {
     "name": "KudoAI & contributors",
-    "email": "contact@kudoai.com",
-    "url": "https://www.kudoai.com"
+    "email": "support@kudoai.org",
+    "url": "https://kudoai.org"
   },
-  "homepage": "https://github.com/KudoAI/chatgpt.js-greasemonkey-starter",
+  "homepage": "https://github.com/KudoAI/chatgpt.js-greasemonkey-starter/#readme",
+  "bugs": {
+    "url": "https://github.com/KudoAI/chatgpt.js-greasemonkey-starter/issues",
+    "email": "support@kudoai.org"
+  },
   "license": "MIT",
   "funding": [
-    { "type": "github", "url": "http://github.com/sponsors/KudoAI" },
-    { "type": "paypal", "url": "http://paypal.biz/kudoai" }
+    {
+      "type": "github",
+      "url": "http://github.com/sponsors/KudoAI"
+    },
+    {
+      "type": "paypal",
+      "url": "http://paypal.biz/kudoai"
+    }
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KudoAI/chatgpt.js-greasemonkey-starter.git"
+  },
   "scripts": {
     "prepare": "husky",
     "lint": "eslint . --cache",
